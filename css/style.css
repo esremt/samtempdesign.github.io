@@ -111,6 +111,11 @@ Tags: light, one-column, two-columns, left-sidebar, right-sidebar, custom-colors
 			src: url(../fonts/Raleway-Light.ttf);
 	}
 
+	@font-face {
+			font-family: customFont3;
+			src: url(../fonts/Raleway-Medium.ttf);
+	}
+
 
 
 
@@ -492,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: -21px;
 }
 
-.navigation ul li.menu-item-has-children > a:after {
+/*.navigation ul li.menu-item-has-children > a:after {
 	content: "\f107";
 	font-family: FontAwesome;
 	font-style: normal;
@@ -503,6 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 0 6px;
 	position: absolute;
 }
+
 
 .navigation ul li li.menu-item-has-children > a:after {
 	content: "\f105";
@@ -528,7 +534,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 15px;
 	color: #777;
 }
-
+*/
 .navigation .megamenu-1-col ul li a,
 .navigation .megamenu-2-col ul li a,
 .navigation .megamenu-3-col ul li a,
