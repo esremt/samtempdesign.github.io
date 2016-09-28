@@ -3699,7 +3699,7 @@ div.pp_default .pp_content, div.light_rounded .pp_content {
 }
 
 .title-block6 {
-	width: 45px;
+	width: 115px;
 	height: 2px;
 	margin: 0 0 30px 0;
 }
@@ -3781,7 +3781,7 @@ p.footer-message {
 
 .contact-widget .cw-phone {
 	font-size: 18px;
-	line-height: 140%;
+	line-height: 100%;
 }
 
 .contact-widget .cw-phone span {
@@ -3792,7 +3792,7 @@ p.footer-message {
 
 .contact-widget .cw-cell {
 	font-size: 18px;
-	line-height: 140%;
+	line-height: 100%;
 }
 
 .contact-widget .cw-cell span {
