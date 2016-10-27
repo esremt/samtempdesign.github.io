@@ -114,6 +114,7 @@ Tags: light, one-column, two-columns, left-sidebar, right-sidebar, custom-colors
 	@font-face {
 			font-family: customFont3;
 			src: url(../fonts/Raleway-Medium.ttf);
+
 	}
 
 
@@ -221,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 2.0 - Header */
 .header-inner {
-	width: 1110px;
+	width: 1210px;
 	margin: 0 auto;
 }
 
@@ -230,9 +231,16 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.3);
 	box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.3);
-	padding: 40px 0;
+	padding: 20px 0;
 	position: relative;
 }
+
+.OK{
+	float: left;
+margin-right: 20px;
+}
+
+
 
 /* 2.1 - Top Bar */
 .top-bar-wrapper {
@@ -341,26 +349,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 2.2 - Logo */
 .logo {
-	float: left;
+position: static;
 }
 
-.logo h2 {
-	font-size: 28px;
-	font-family: 'Source Serif Pro', serif;
-	margin: 15px 0 0 0;
-}
+
+/* LOGO! */
 
 .logo h2:before {
+	/*
 	font-size: 26px;
-	width: 55px;
-	height: 40px;
+	width: 90px;
+	height: 75px;
 	padding: 15px 0 0 0;
 	margin: -15px 14px 0 0;
 	display: block;
-/* LOGO! */
+
 	content: "\f072";
-
-
 	color: #fff;
 	text-align: center;
 	-webkit-border-radius: 99%;
@@ -368,6 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 	-o-border-radius: 99%;
 	border-radius: 99%;
 	float: left;
+*/
 }
 
 /* 2.3 - Top Right Button */
@@ -377,6 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 16px;
 	line-height: 1;
 	padding: 20px 25px;
+
 }
 
 .top-right-button i {
@@ -398,9 +404,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .navigation li a {
 	padding: 19px 44px 19px 0;
-	font-size: 16px;
+	font-size: 17px;
 	display: block;
 	color: #424242;
+		font-family: customFont2 !important;
 }
 
 .navigation li li {
